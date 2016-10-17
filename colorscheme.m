@@ -203,6 +203,36 @@ switch(scheme)
 		
 		% limiter line color
 		colors.editor_limiter_line = '35322d';
+	
+	case 'deeper-blue' % from emacs deeper-blue theme
+		%% deeper-blue
+		% background and highlights
+		colors.background = '181a26';
+		colors.highlight_cells = '142533';
+		colors.highlight_current_line = '103050';
+		colors.highlight_autofix_suggestions = 'cd00cd';
+		colors.highlight_current_variable = 'ee6a50';
+		
+		% underline
+		colors.underline_syntax_errors = 'ff0000';
+		colors.underline_code_warnings = 'ffff00';
+		
+		% text
+		colors.text = 'cccccc';
+		colors.keywords = '00bfff';
+		colors.comments = '7f7f7f';
+		colors.strings = 'deb887';
+		colors.unterminated_strings = '8b7355';
+		colors.system_commands = 'f08080';
+		colors.persistent_variables = 'a2cd5a';
+
+		% command window
+		colors.cmd_errors = 'ff0000';
+		colors.cmd_warnings = 'ffff00';
+		colors.cmd_hyperlinks = '87ceff';
+		
+		% limiter line color
+		colors.editor_limiter_line = 'bfbfbf';
 
 	otherwise
 		%% nothing
